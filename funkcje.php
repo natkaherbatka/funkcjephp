@@ -158,9 +158,6 @@ function SZYFR($tekst){
     echo $wynik;
 }
 
-
-/* OBSŁUGA FORMULARZY */
-
 if(isset($_POST["suma"])){
     SUMA($_POST["suma1"], $_POST["suma2"]);
 }
@@ -287,4 +284,4 @@ if(isset($_POST["szyfr"])){
 
 </body>
 </html>
-```
+
